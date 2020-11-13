@@ -10,13 +10,16 @@
         android:id="@+id/txtPruebas"
         android:layout_width="100dp"
         android:layout_height="22dp"
-        android:foreground="@android:drawable/button_onoff_indicator_on"
         android:onClick="OpenPruebas"
         android:text="Pruebas"
-        android:textColor="#3F51B5"
+        android:textAlignment="textStart"
+        android:textColor="#1B2F9E"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pruebas" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
