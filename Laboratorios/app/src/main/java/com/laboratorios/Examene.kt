@@ -1,13 +1,13 @@
 package com.laboratorios
 
-data class Examene (val ID:Int,
-                    val TIPO:String,
-                    val CODIGO:String,
-                    val NOMBRE:String,
-                    val TIPOMUESTRA: String,
-                    val REQUISITOSPACIENTE:String,
-                    val ENTREGA:String,
-                    val PRECIO:Double,
-                    val DESCRIPCION:String)
+data class Examene (@SerializedName("ID") val ID:Int,
+                    @SerializedName("TIPO") val TIPO:String,
+                    @SerializedName("CODIGO") val CODIGO:String,
+                    @SerializedName("NOMBRE") val NOMBRE:String,
+                    @SerializedName("TIPOMUESTRA") val TIPOMUESTRA: String,
+                    @SerializedName("REQUISITOSPACIENTE") val REQUISITOSPACIENTE:String,
+                    @SerializedName("ENTREGA") val ENTREGA:String,
+                    @SerializedName("PRECIO") val PRECIO:Double,
+                    @SerializedName("DESCRIPCION") val DESCRIPCION:String)
 
 
