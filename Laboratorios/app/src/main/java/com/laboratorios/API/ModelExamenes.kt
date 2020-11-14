@@ -1,4 +1,9 @@
 package com.laboratorios.API
 
-class ModelExamenes {
-}
+import com.google.gson.annotations.SerializedName
+data class ModelExamenes (
+    @SerializedName("Mensaje") val mensaje:String,
+                    @SerializedName("Lista") val lista: List<Examen>)
+
+
+
